@@ -1,0 +1,124 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+img{ border:0;}
+
+input,textarea:focus {outline: none;}
+
+*{margin:0; padding:0; list-style:none; }
+.img-responsive{ width:100%;}
+/**
+* 中文小于 12px 可读性很差
+* 1. 统一 IE 6-7 中字体大小
+* 2. 统一 Firefox 4+，Safari 5 和 Chrome 中「section」和「article」内的字体大小
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+/* 清除浮 动*/
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+/* for html5 all transition */
+*:link, *:visited, *:hover, *:active, *:focus{
+-webkit-transition:color .25s linear,background-color .25s linear,border-color .25s linear;
+transition:color .25s linear,background-color .25s linear,border-color .25s linear;}
+
+/**************宽度**************/
+.w-100p{ width: 100%;}
+.w-95p{ width: 95%; float:left;}
+.w-90p{ width: 90%; float:left;}
+.w-85p{ width: 85%; float:left;}
+.w-80p{ width: 80%; float:left;}
+.w-75p{ width: 75%; float:left;}
+.w-70p{ width: 70%; float:left;}
+.w-65p{ width: 65%; float:left;}
+.w-60p{ width: 60%; float:left;}
+.w-55p{ width: 55%; float:left;}
+.w-50p{ width: 50%; float:left;}
+.w-45p{ width: 45%; float:left;}
+.w-40p{ width: 40%; float:left;}
+.w-35p{ width: 35%; float:left;}
+.w-33p{ width: 33.33%; float:left;}
+.w-30p{ width: 30%; float:left;}
+.w-25p{ width: 25%; float:left;}
+.w-20p{ width: 20%; float:left;}
+.w-15p{ width: 15%; float:left;}
+.w-10p{ width: 10%; float:left;}
+.w-5p{ width: 5%; float:left;}
