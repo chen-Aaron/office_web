@@ -24,10 +24,9 @@ body {
 }
 
 .nivoSlider img {
-	height: 500px;
-	/* position: absolute;
+	position: absolute;
 	top: 0px;
-	left: 0px; */
+	left: 0px;
 	max-width: none;
 }
 
