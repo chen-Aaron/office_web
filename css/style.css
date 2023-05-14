@@ -108,7 +108,7 @@ input {border:0;outline:none;}
 .xm_six_list li .text-02{ padding: 0px 49px; margin-top: 20px;}
 .xm_six_list li .text-02 p{font-size: 18px; line-height: 27px; color: #9A9A9A;}
 .xm_seven{ background: url(../images/body03.jpg) no-repeat center center; width: 100%; padding: 30px 0px; background-size: cover; display: flex; align-items: center; }
-.xm_seven_auto{ width:700px; margin: 0 auto;}
+/* .xm_seven_auto{ width:700px; margin: 0 auto;} */
 .xm_seven_auto h2{font-size: 36px; font-weight: bold; line-height: 47px; color: #FFFFFF; text-align: center;}
 .xm_seven_auto span{font-size: 22px; line-height: 29px; color: #F6F6F6; display: block; text-align: center; margin-top: 10px; }
 .xm_seven_auto p{font-size: 16px; line-height: 21px; color: #FFFFFF; text-align: center; margin-top: 20px;}
