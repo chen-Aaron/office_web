@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.3" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <title>某某教育</title>
-  <meta name="keywords" content="某某教育" />
-  <meta name="description" content="某某教育" />
-
+  <title>猫哥新传考研</title>
+  <meta name="keywords" content="猫哥新传考研" />
+  <meta name="description" content="猫哥新传考研" />
+  <link rel="icon" href="/img/webicon.jpg">
   <link href="/css/libs/reset.css" rel="stylesheet" />
   <link href="/css/style.css" rel="stylesheet" type="text/css" />
   <link href="/css/libs/nivo-slider.css" rel="stylesheet" type="text/css" />
@@ -496,81 +496,49 @@
       <div class="text flex_align">
         <div class="txt-box">
           <h2>课程咨询</h2>
-          <span data-reveal-id="myModal" data-animation="fade">点击立即咨询</span>
+          <span id="submit" data-animation="fade">点击立即咨询</span>
         </div>
       </div>
     </div>
 
 
     <div class="modal" id="myModal">
-        <div class="xm_seven_auto">
-          <h2>课程咨询</h2>
-          <span>提交咨询了解更多课程内容</span>
-          <form action="/?message/" method="post">
-            <ul>
-              <li>
-                <div class="txt">
-                  <img src="/img/index/icon_012.png" />姓名：
-                </div>
-                <input
-                  class="input"
-                  type="text"
-                  name="name"
-                  id="username"
-                  placeholder="请输入您的姓名"
-                />
-              </li>
-              <li>
-                <div class="txt">
-                  <img src="/img/index/icon_013.png" />电话：
-                </div>
-                <input
-                  class="input"
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  onkeyup="this.value=this.value.replace(/\D/g,'')"
-                  onafterpaste="this.value=this.value.replace(/\D/g,'')"
-                  placeholder="请输入您的电话"
-                />
-              </li>
-              <li>
-                <div class="txt">
-                  <img src="/img/index/icon_014.png" />咨询课程：
-                </div>
-                <input
-                  class="input"
-                  type="text"
-                  name="text"
-                  id="text"
-                  placeholder="请输入您要咨询的课程"
-                />
-              </li>
-              <li>
-                <div class="btn">
-                  <a href="" id="SubmitAdd"> 咨询更多</a>
-                  <a id=""
-                    ><button
-                      type="submit"
-                      style="
-                        width: 100%;
-                        height: 100%;
-                        background: #fe552e;
-                        color: #fff;
-                        font-size: 22px;
-                        border: none;
-                      "
-                    >
-                      立即报名
-                    </button></a
-                  >
-                </div>
-              </li>
-            </ul>
-          </form>
-          <p>全国统一咨询热线：022-0000000</p>
-        </div>
+      <div class="xm_seven_auto">
+        <h2>课程咨询 <span id="close"><img src="/img/close.png" /></span></span></h2>
+        <span>提交咨询了解更多课程内容</span>
+        <form action="/?message/" method="post">
+          <ul>
+            <li>
+              <div class="txt">
+                <img src="/img/index/icon_012.png" />姓名：
+              </div>
+              <input class="input" type="text" name="name" id="username" placeholder="请输入您的姓名" />
+            </li>
+            <li>
+              <div class="txt">
+                <img src="/img/index/icon_013.png" />电话：
+              </div>
+              <input class="input" type="text" name="phone" id="phone" onkeyup="this.value=this.value.replace(/\D/g,'')"
+                onafterpaste="this.value=this.value.replace(/\D/g,'')" placeholder="请输入您的电话" />
+            </li>
+            <li>
+              <div class="txt">
+                <img src="/img/index/icon_014.png" />咨询课程：
+              </div>
+              <input class="input" type="text" name="text" id="text" placeholder="请输入您要咨询的课程" />
+            </li>
+            <li>
+              <div class="btn">
+                <span>
+                  立即报名
+                </span>
+              </div>
+            </li>
+          </ul>
+        </form>
+        <p>全国统一咨询热线：022-0000000</p>
       </div>
+    </div>
   </div>
   <div class="footer">
     <div class="footer_auto">
@@ -673,7 +641,7 @@
   <script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
   <script type="text/javascript" src="/js/dialog.js"></script>
   <script type="text/javascript" src="/js/message.js"></script>
-  <script type="text/javascript" src="/js/reveal.js" ></script>
+  <script type="text/javascript" src="/js/reveal.js"></script>
   <script type="text/javascript" src="/js/index.js"></script>
 </body>
 

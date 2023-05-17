@@ -213,8 +213,8 @@ input {border:0;outline:none;}
 .xm_bmbody .xm_seven_auto ul li{ margin-top: 30px;}
 .huawei_title h2 span{ color: #F5222D;}
 .xm_seven_auto ul li:last-child{ background: none; padding: 0; height: auto;}
-.xm_seven_auto ul li .btn{ display: flex; justify-content: space-between; width: 100%;}
-.xm_seven_auto ul li .btn a{width: 196px; height: 50px; display: block; text-align: center; line-height: 50px; font-size: 22px; color: #fff;}
+/* .xm_seven_auto ul li .btn{ display: flex; justify-content: space-between; width: 100%;} */
+/* .xm_seven_auto ul li .btn a{width: 196px; height: 50px; display: block; text-align: center; line-height: 50px; font-size: 22px; color: #fff;} */
 .xm_seven_auto ul li .btn a{ background-color: #40A0FF;}
 .xm_seven_auto ul li .btn a:last-child{ background-color: #FE552E;}
 

@@ -29,6 +29,13 @@ jQuery(".slideBox").slide({ mainCell: ".bd ul", effect: "leftLoop", autoPlay: tr
 
 jQuery(".picScroll-left").slide({ titCell: ".hd ul", mainCell: ".bd ul", autoPage: true, effect: "leftLoop", autoPlay: true, vis: 2 });
 
+$("#submit").click(function(){
+  $("#myModal").show('fast');
+})
+
+$("#close").click(function(){
+  $("#myModal").hide('fast');
+})
 
 $(function () {
   $('#SubmitAdd').click(function () {
