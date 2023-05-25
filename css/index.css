@@ -35,19 +35,19 @@
 }
 
 .xm_one_list .item:nth-child(1) {
-    background: url(./img/index/bg_02.png) no-repeat;
+    background: url(../img/index/bg_02.png) no-repeat;
 }
 
 .xm_one_list .item:nth-child(2) {
-    background: url(./img/index/bg_01.png) no-repeat;
+    background: url(../img/index/bg_01.png) no-repeat;
 }
 
 .xm_one_list .item:nth-child(3) {
-    background: url(./img/index/bg_03.png) no-repeat;
+    background: url(../img/index/bg_03.png) no-repeat;
 }
 
 .xm_tow_list li {
-    background: url(./img/index/bg_04.png) no-repeat;
+    background: url(../img/index/bg_04.png) no-repeat;
     width: 260px;
     height: 394px;
     padding: 55px 45px 100px 45px;
@@ -75,7 +75,7 @@
 }
 
 .picScroll-left .hd .prev {
-    background: url(./img/index/prev.png) no-repeat;
+    background: url(../img/index/prev.png) no-repeat;
     width: 27px;
     height: 27px;
     position: absolute;
@@ -85,7 +85,7 @@
 }
 
 .picScroll-left .hd .next {
-    background: url(./img/index/next.png) no-repeat;
+    background: url(../img/index/next.png) no-repeat;
     width: 27px;
     height: 27px;
     position: absolute;
